@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Black.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 250px;
+    margin-bottom: 60px;
+}
+
+.logo {
+    font-family: "Roboto";
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb ;
+}
+
+.block_1 {
+    background-color: #1f2937;
+    padding: 20px 80px 60px;
+    margin: 0 auto;      /* centra TODO */
+}
+
+.main-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text h1 {
+    margin-bottom: 0px;
+    font-size: 48px;
+    font-family: "Roboto";
+    color: #f9faf8;
+}
+
+.text p {
+    margin-top: 0px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.text button {
+    margin-top: 0px;
+}
+.sign-up {
+    height: 30px;
+    width: 100px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.sign-up:hover {
+    background-color: #146af5;
+}
