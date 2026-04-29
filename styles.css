@@ -78,3 +78,130 @@ a {
 .sign-up:hover {
     background-color: #146af5;
 }
+
+.body_text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+}
+
+.content-header {
+    display: flex;
+    justify-content: center;
+}
+
+.content-header h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-family: "Roboto";
+    font-weight: 900;
+}
+
+.content-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.body-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content-boxes .content-box img{
+    border:#3882f6 solid 4px;
+    border-radius: 10px;
+    padding: 4px;
+}
+.content-boxes .content-box p {
+    font-size: 18px;
+}
+
+.testimonial-section {
+    background-color: #e5e7eb;
+    padding: 50px 50px;
+}
+
+
+.testimonial-section .testimonial-text h2 {
+    display: flex;
+}
+
+.testimonial-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 22px;
+}
+
+.blue-block {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #3882f6;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.final-block {
+    color: #f9faf8;
+}
+
+.blue-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.txt1 {
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+
+.txt2 {
+    margin-top: 5px;
+}
+
+.footer-block {
+    background-color: #1f2937;
+}
+
+.footer-block .txt p {
+    color: #e5e7eb;
+    text-align: center;
+    padding: 30px;
+}
+
+html, body {
+    height: 100%;
+}
